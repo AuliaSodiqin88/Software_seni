@@ -55,5 +55,7 @@ WebUI.click(findTestObject('Object Repository/full_flow/Page_Swag Labs/button_Fi
 
 WebUI.click(findTestObject('Object Repository/full_flow/Page_Swag Labs/button_Back Home'))
 
+WebUI.delay(5)
+
 WebUI.closeBrowser()
 
