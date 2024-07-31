@@ -37,5 +37,7 @@ WebUI.click(findTestObject('Object Repository/select_Item/Page_Swag Labs/button_
 
 WebUI.click(findTestObject('Object Repository/select_Item/Page_Swag Labs/button_Add to cart_1_2_3'))
 
+WebUI.delay(3)
+
 WebUI.closeBrowser()
 
