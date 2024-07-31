@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="29.405" tests="3" failures="0" errors="0">
+   <testsuite name="TestSuite" tests="3" failures="0" errors="0" time="29.405" skipped="0" timestamp="2024-07-31 15:11:40" hostname="HP WOLF - DESKTOP-FGTT3F6" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP WOLF\\git\\Software_seni\\Reports\\20240731_151138\\TestSuite\\20240731_151138"/>
+         <property name="logFiles" value="C:\\Users\\HP WOLF\\git\\Software_seni\\Reports\\20240731_151138\\TestSuite\\20240731_151138\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HP WOLF - DESKTOP-FGTT3F6"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.157.73"/>
+         <property name="sessionId" value="02ce6a1803fc4c5842769f08654297d3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Full_flow/Full_Flow" time="14.936" classname="Test Cases/Full_flow/Full_Flow" status="PASSED">
+         <system-out><![CDATA[2024-07-31 15:11:40 - [TEST_CASE][PASSED] - Test Cases/Full_flow/Full_Flow: Test Cases/Full_flow/Full_Flow
+
+2024-07-31 15:11:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-07-31 15:11:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-07-31 15:11:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-07-31 15:11:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-07-31 15:11:42 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2024-07-31 15:11:43 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2024-07-31 15:11:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-07-31 15:11:43 - [MESSAGE][PASSED] - Current window maximized
+
+2024-07-31 15:11:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/full_flow/Page_Swag Labs/input_Swag Labs_user-name"), UserName): Text 'standard_user' is set on object 'Object Repository/full_flow/Page_Swag Labs/input_Swag Labs_user-name'
+
+2024-07-31 15:11:45 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/full_flow/Page_Swag Labs/input_Swag Labs_user-name'
+
+2024-07-31 15:11:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/full_flow/Page_Swag Labs/input_Swag Labs_password"), Password): Text 'secret_sauce' is set on object 'Object Repository/full_flow/Page_Swag Labs/input_Swag Labs_password'
+
+2024-07-31 15:11:46 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/full_flow/Page_Swag Labs/input_Swag Labs_password'
+
+2024-07-31 15:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/full_flow/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/full_flow/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2024-07-31 15:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/full_flow/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2024-07-31 15:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/full_flow/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/full_flow/Page_Swag Labs/button_Add to cart' is clicked on
+
+2024-07-31 15:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/full_flow/Page_Swag Labs/button_Add to cart' is clicked on
+
+2024-07-31 15:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/full_flow/Page_Swag Labs/button_Add to cart_1")): Object: 'Object Repository/full_flow/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2024-07-31 15:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/full_flow/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2024-07-31 15:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/full_flow/Page_Swag Labs/button_Add to cart_1_2")): Object: 'Object Repository/full_flow/Page_Swag Labs/button_Add to cart_1_2' is clicked on
+
+2024-07-31 15:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/full_flow/Page_Swag Labs/button_Add to cart_1_2' is clicked on
+
+2024-07-31 15:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/full_flow/Page_Swag Labs/button_Add to cart_1_2_3")): Object: 'Object Repository/full_flow/Page_Swag Labs/button_Add to cart_1_2_3' is clicked on
+
+2024-07-31 15:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/full_flow/Page_Swag Labs/button_Add to cart_1_2_3' is clicked on
+
+2024-07-31 15:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/full_flow/Page_Swag Labs/a_4")): Object: 'Object Repository/full_flow/Page_Swag Labs/a_4' is clicked on
+
+2024-07-31 15:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/full_flow/Page_Swag Labs/a_4' is clicked on
+
+2024-07-31 15:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/full_flow/Page_Swag Labs/button_Remove")): Object: 'Object Repository/full_flow/Page_Swag Labs/button_Remove' is clicked on
+
+2024-07-31 15:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/full_flow/Page_Swag Labs/button_Remove' is clicked on
+
+2024-07-31 15:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/full_flow/Page_Swag Labs/button_Checkout")): Object: 'Object Repository/full_flow/Page_Swag Labs/button_Checkout' is clicked on
+
+2024-07-31 15:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/full_flow/Page_Swag Labs/button_Checkout' is clicked on
+
+2024-07-31 15:11:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/full_flow/Page_Swag Labs/input_Checkout Your Information_firstName"), FullName): Text 'Aulia' is set on object 'Object Repository/full_flow/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+2024-07-31 15:11:51 - [MESSAGE][PASSED] - Text 'Aulia' is set on object 'Object Repository/full_flow/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+2024-07-31 15:11:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/full_flow/Page_Swag Labs/input_Checkout Your Information_lastName"), LastName): Text 'Sodiqin' is set on object 'Object Repository/full_flow/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+2024-07-31 15:11:52 - [MESSAGE][PASSED] - Text 'Sodiqin' is set on object 'Object Repository/full_flow/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+2024-07-31 15:11:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/full_flow/Page_Swag Labs/input_Checkout Your Information_postalCode"), PostalCode): Text '12345' is set on object 'Object Repository/full_flow/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+2024-07-31 15:11:52 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/full_flow/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+2024-07-31 15:11:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/full_flow/Page_Swag Labs/input_Cancel_continue")): Object: 'Object Repository/full_flow/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+2024-07-31 15:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/full_flow/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+2024-07-31 15:11:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/full_flow/Page_Swag Labs/button_Finish")): Object: 'Object Repository/full_flow/Page_Swag Labs/button_Finish' is clicked on
+
+2024-07-31 15:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/full_flow/Page_Swag Labs/button_Finish' is clicked on
+
+2024-07-31 15:11:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/full_flow/Page_Swag Labs/button_Back Home")): Object: 'Object Repository/full_flow/Page_Swag Labs/button_Back Home' is clicked on
+
+2024-07-31 15:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/full_flow/Page_Swag Labs/button_Back Home' is clicked on
+
+2024-07-31 15:11:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-07-31 15:11:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login" time="6.131" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[2024-07-31 15:11:55 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+2024-07-31 15:11:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-07-31 15:11:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-07-31 15:11:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-07-31 15:11:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-07-31 15:11:56 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2024-07-31 15:11:57 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2024-07-31 15:11:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-07-31 15:11:57 - [MESSAGE][PASSED] - Current window maximized
+
+2024-07-31 15:11:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Swag Labs/input_Swag Labs_user-name"), UserName): Text 'standard_user' is set on object 'Object Repository/Login/Page_Swag Labs/input_Swag Labs_user-name'
+
+2024-07-31 15:11:59 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/Page_Swag Labs/input_Swag Labs_user-name'
+
+2024-07-31 15:11:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Swag Labs/input_Swag Labs_password"), Password): Text 'secret_sauce' is set on object 'Object Repository/Login/Page_Swag Labs/input_Swag Labs_password'
+
+2024-07-31 15:12:00 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/Page_Swag Labs/input_Swag Labs_password'
+
+2024-07-31 15:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Login/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2024-07-31 15:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2024-07-31 15:12:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-07-31 15:12:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Select_Item/Select_item" time="8.165" classname="Test Cases/Select_Item/Select_item" status="PASSED">
+         <system-out><![CDATA[2024-07-31 15:12:01 - [TEST_CASE][PASSED] - Test Cases/Select_Item/Select_item: Test Cases/Select_Item/Select_item
+
+2024-07-31 15:12:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-07-31 15:12:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-07-31 15:12:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-07-31 15:12:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-07-31 15:12:02 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2024-07-31 15:12:03 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2024-07-31 15:12:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-07-31 15:12:03 - [MESSAGE][PASSED] - Current window maximized
+
+2024-07-31 15:12:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/select_Item/Page_Swag Labs/input_Swag Labs_user-name"), UserName): Text 'standard_user' is set on object 'Object Repository/select_Item/Page_Swag Labs/input_Swag Labs_user-name'
+
+2024-07-31 15:12:05 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/select_Item/Page_Swag Labs/input_Swag Labs_user-name'
+
+2024-07-31 15:12:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/select_Item/Page_Swag Labs/input_Swag Labs_password"), Password): Text 'secret_sauce' is set on object 'Object Repository/select_Item/Page_Swag Labs/input_Swag Labs_password'
+
+2024-07-31 15:12:06 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/select_Item/Page_Swag Labs/input_Swag Labs_password'
+
+2024-07-31 15:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/select_Item/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/select_Item/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2024-07-31 15:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/select_Item/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2024-07-31 15:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/select_Item/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/select_Item/Page_Swag Labs/button_Add to cart' is clicked on
+
+2024-07-31 15:12:07 - [MESSAGE][PASSED] - Object: 'Object Repository/select_Item/Page_Swag Labs/button_Add to cart' is clicked on
+
+2024-07-31 15:12:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/select_Item/Page_Swag Labs/button_Add to cart_1")): Object: 'Object Repository/select_Item/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2024-07-31 15:12:07 - [MESSAGE][PASSED] - Object: 'Object Repository/select_Item/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2024-07-31 15:12:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/select_Item/Page_Swag Labs/button_Add to cart_1_2")): Object: 'Object Repository/select_Item/Page_Swag Labs/button_Add to cart_1_2' is clicked on
+
+2024-07-31 15:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/select_Item/Page_Swag Labs/button_Add to cart_1_2' is clicked on
+
+2024-07-31 15:12:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/select_Item/Page_Swag Labs/button_Add to cart_1_2_3")): Object: 'Object Repository/select_Item/Page_Swag Labs/button_Add to cart_1_2_3' is clicked on
+
+2024-07-31 15:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/select_Item/Page_Swag Labs/button_Add to cart_1_2_3' is clicked on
+
+2024-07-31 15:12:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-07-31 15:12:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-07-31 15:11:40 - [TEST_SUITE][PASSED] - TestSuite: Test Cases/Select_Item/Select_item]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
